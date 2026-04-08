@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Movie Explorer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>🎬 Movie Explorer</h1>
+
+  <div class="controls">
+    <input type="text" id="search" placeholder="Search movies...">
+    <input type="number" id="year" placeholder="Filter by year">
+
+    <select id="sort">
+      <option value="">Sort</option>
+      <option value="asc">A-Z</option>
+      <option value="desc">Z-A</option>
+    </select>
+
+    <button id="darkBtn">🌙</button>
+  </div>
+
+  <p id="loading"></p>
+
+  <div id="movies"></div>
+
+  <h2>⭐ Favorites</h2>
+  <div id="favorites"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
