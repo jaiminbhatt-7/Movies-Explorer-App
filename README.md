@@ -4,6 +4,7 @@
 
 Movie Explorer is a web application that allows users to browse and explore movies using a public API.
 The application demonstrates core web development concepts such as API integration, DOM manipulation, and the use of JavaScript array methods.
+Deployed Link: https://movies-explorer-app-007.netlify.app/
 
 ---
 
