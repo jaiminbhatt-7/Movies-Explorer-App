@@ -106,7 +106,7 @@ movie-explorer/
 3. Add your API key:
 
    ```js
-   const API_KEY = "your_api_key_here";
+   const API_KEY = "get a free key at omdbapi.com";
    ```
 4. Open `index.html` in your browser
 
